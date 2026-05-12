@@ -30,5 +30,18 @@ SentinelForge AI is an AI-assisted cybersecurity resilience MVP that demonstrate
 
 ### Home
 
+## Dashboard Screenshots
+
+### IOC Analysis
+
+![IOC Analysis](screenshots/ioc-analysis.png)
+
+### Workflow Health Agent
+
+![Workflow Health](screenshots/workflow-health.png)
+
+### Supplier Cyber Resilience
+
+![Supplier Resilience](screenshots/supplier-resilience.png)
 ```text
 GET /
