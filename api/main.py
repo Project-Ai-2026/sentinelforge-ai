@@ -7,6 +7,7 @@ from enrichment.ioc_classifier import classify_ioc
 
 from ai_analysis.threat_summary import generate_ioc_summary
 from ai_analysis.supplier_summary import generate_supplier_summary
+from ai_analysis.mitre_mapper import generate_mitre_mapping
 
 from agent.workflow_health_agent import run_workflow_health_agent
 
@@ -44,6 +45,12 @@ def analyze_ioc(request: IOCRequest):
         result["ai_analysis"] = generate_ioc_summary(
             request.ioc,
             ioc_type
+        )
+
+        result["mitre"] = generate_mitre_mapping(
+            request.ioc,
+            ioc_type,
+            result["ai_analysis"]["ai_summary"]
         )
 
     return result
