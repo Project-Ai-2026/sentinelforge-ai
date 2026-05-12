@@ -1,0 +1,13 @@
+{
+  "supplier_name": "Example Supplier",
+  "supplier_type": "Software Vendor",
+  "business_criticality": "High",
+  "region": "United States",
+  "handles_sensitive_data": true,
+  "internet_exposed_services": true,
+  "has_recent_incidents": false,
+  "sbom_available": true,
+  "aibom_available": true,
+  "known_vulnerable_dependencies": 2,
+  "last_security_review_days": 120
+}
