@@ -8,7 +8,7 @@ SentinelForge AI is a cyber threat intelligence and supply chain cyber resilienc
 
 # Platform Overview
 
-![Overview](Screenshots/sentinelforge_mvp_overview.png)
+![Overview](Screenshots/overview.png)
 
 ---
 
