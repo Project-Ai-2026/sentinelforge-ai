@@ -27,12 +27,13 @@ def calculate_resilience_score(profile: dict) -> dict:
         reasons.append("AIBOM is not available.")
 
     vulnerable_dependencies = profile.get("known_vulnerable_dependencies", 0)
-
     if vulnerable_dependencies > 0:
         score -= vulnerable_dependencies * 5
         reasons.append(f"{vulnerable_dependencies} known vulnerable dependencies identified.")
 
-    if profile.get("last_security_review_days", 0) > 90:
+    # Default to 365 (unknown = worst case) rather than 0 (reviewed today)
+    review_age = profile.get("last_security_review_days", 365)
+    if review_age > 90:
         score -= 10
         reasons.append("Security review is older than 90 days.")
 

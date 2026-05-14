@@ -1,0 +1,783 @@
+[
+  {
+    "supplier_name": "Hon Hai Precision Industry Co., Ltd.",
+    "known_as": "Foxconn",
+    "ticker": "HNHPF",
+    "cik": null,
+    "category": "Final Assembly",
+    "apple_relationship": "Publicly listed Apple supplier — primary iPhone and Mac assembler",
+    "primary_regions": ["China", "India", "Vietnam", "Mexico"],
+    "hq_country": "Taiwan",
+    "business_criticality": "High",
+    "product_dependency": "iPhone, Mac, iPad, Apple Watch final assembly",
+    "handles_sensitive_data": true,
+    "internet_exposed_services": true,
+    "sbom_available": false,
+    "aibom_available": false,
+    "known_vulnerable_dependencies": 3,
+    "last_security_review_days": 90,
+    "has_recent_incidents": true,
+    "cyber_risk_factors": [
+      "2020 REvil ransomware attack — $34M ransom demanded",
+      "Massive workforce scale creates insider threat surface",
+      "OT/ICS exposure across hundreds of factory floors",
+      "Chinese regulatory and data access obligations",
+      "High-value espionage target for Apple product roadmap intelligence"
+    ],
+    "resilience_signals": [
+      "Geographic diversification across India, Vietnam, Mexico",
+      "Apple Supplier Code of Conduct compliance audits",
+      "Investment in automation reducing human access to sensitive lines"
+    ],
+    "data_sources": [
+      "Apple Supplier List 2024",
+      "Reuters — Foxconn ransomware 2020",
+      "Bloomberg Supply Chain reporting"
+    ],
+    "apple_supplier_list_year": 2024
+  },
+  {
+    "supplier_name": "Pegatron Corporation",
+    "known_as": "Pegatron",
+    "ticker": "PGTRF",
+    "cik": null,
+    "category": "Final Assembly",
+    "apple_relationship": "Publicly listed Apple supplier — iPhone and Mac assembly",
+    "primary_regions": ["China", "Indonesia", "India"],
+    "hq_country": "Taiwan",
+    "business_criticality": "High",
+    "product_dependency": "iPhone assembly (secondary to Foxconn)",
+    "handles_sensitive_data": true,
+    "internet_exposed_services": true,
+    "sbom_available": false,
+    "aibom_available": false,
+    "known_vulnerable_dependencies": 2,
+    "last_security_review_days": 90,
+    "has_recent_incidents": false,
+    "cyber_risk_factors": [
+      "Concentration of operations in China — geopolitical risk",
+      "Large-scale OT environment with legacy systems",
+      "Sub-supplier chain visibility is limited"
+    ],
+    "resilience_signals": [
+      "Geographic expansion to Indonesia and India",
+      "Apple supplier audit compliance"
+    ],
+    "data_sources": [
+      "Apple Supplier List 2024",
+      "Pegatron annual report"
+    ],
+    "apple_supplier_list_year": 2024
+  },
+  {
+    "supplier_name": "Luxshare Precision Industry Co., Ltd.",
+    "known_as": "Luxshare",
+    "ticker": "002475.SZ",
+    "cik": null,
+    "category": "Final Assembly",
+    "apple_relationship": "Publicly listed Apple supplier — AirPods and iPhone assembly",
+    "primary_regions": ["China", "Vietnam"],
+    "hq_country": "China",
+    "business_criticality": "High",
+    "product_dependency": "AirPods, Apple Watch, iPhone assembly",
+    "handles_sensitive_data": true,
+    "internet_exposed_services": true,
+    "sbom_available": false,
+    "aibom_available": false,
+    "known_vulnerable_dependencies": 2,
+    "last_security_review_days": 120,
+    "has_recent_incidents": false,
+    "cyber_risk_factors": [
+      "Domiciled in China — subject to national data security laws",
+      "Rapid growth may outpace security maturity",
+      "Increasing share of Apple critical assembly increases targeting risk"
+    ],
+    "resilience_signals": [
+      "Expanding manufacturing to Vietnam",
+      "Apple Supplier Code compliance"
+    ],
+    "data_sources": [
+      "Apple Supplier List 2024",
+      "Nikkei Asia — Luxshare supply chain reporting"
+    ],
+    "apple_supplier_list_year": 2024
+  },
+  {
+    "supplier_name": "Quanta Computer Inc.",
+    "known_as": "Quanta",
+    "ticker": "QUCPF",
+    "cik": null,
+    "category": "Final Assembly",
+    "apple_relationship": "Publicly listed Apple supplier — MacBook assembly",
+    "primary_regions": ["Taiwan", "China"],
+    "hq_country": "Taiwan",
+    "business_criticality": "High",
+    "product_dependency": "MacBook design and assembly",
+    "handles_sensitive_data": true,
+    "internet_exposed_services": true,
+    "sbom_available": false,
+    "aibom_available": false,
+    "known_vulnerable_dependencies": 1,
+    "last_security_review_days": 75,
+    "has_recent_incidents": true,
+    "cyber_risk_factors": [
+      "2021 REvil ransomware attack — schematics for unreleased Apple products stolen",
+      "Taiwan Strait geopolitical concentration risk",
+      "High-value IP target — holds Apple hardware designs"
+    ],
+    "resilience_signals": [
+      "Incident response improvements post-2021 attack",
+      "Dual Taiwan/China operations reduce single-site risk"
+    ],
+    "data_sources": [
+      "Apple Supplier List 2024",
+      "Bloomberg — Quanta ransomware attack 2021"
+    ],
+    "apple_supplier_list_year": 2024
+  },
+  {
+    "supplier_name": "Compal Electronics",
+    "known_as": "Compal",
+    "ticker": "CPALSY",
+    "cik": null,
+    "category": "Final Assembly",
+    "apple_relationship": "Publicly listed Apple supplier — MacBook and iPad manufacturing",
+    "primary_regions": ["Taiwan", "China"],
+    "hq_country": "Taiwan",
+    "business_criticality": "High",
+    "product_dependency": "MacBook, iPad manufacturing",
+    "handles_sensitive_data": true,
+    "internet_exposed_services": true,
+    "sbom_available": false,
+    "aibom_available": false,
+    "known_vulnerable_dependencies": 2,
+    "last_security_review_days": 90,
+    "has_recent_incidents": true,
+    "cyber_risk_factors": [
+      "2020 DoppelPaymer ransomware attack",
+      "Taiwan geopolitical concentration",
+      "OT exposure in manufacturing lines"
+    ],
+    "resilience_signals": [
+      "Post-incident security hardening reported",
+      "Apple supplier audit compliance"
+    ],
+    "data_sources": [
+      "Apple Supplier List 2024",
+      "Security research — Compal ransomware 2020"
+    ],
+    "apple_supplier_list_year": 2024
+  },
+  {
+    "supplier_name": "Tata Electronics Private Limited",
+    "known_as": "Tata Electronics",
+    "ticker": null,
+    "cik": null,
+    "category": "Final Assembly",
+    "apple_relationship": "Publicly listed Apple supplier — iPhone assembly in India",
+    "primary_regions": ["India"],
+    "hq_country": "India",
+    "business_criticality": "High",
+    "product_dependency": "iPhone assembly — India production for India-first strategy",
+    "handles_sensitive_data": true,
+    "internet_exposed_services": true,
+    "sbom_available": false,
+    "aibom_available": false,
+    "known_vulnerable_dependencies": 0,
+    "last_security_review_days": 60,
+    "has_recent_incidents": false,
+    "cyber_risk_factors": [
+      "Emerging supplier — security maturity still scaling",
+      "Rapid workforce growth may create insider risk",
+      "Limited public security posture disclosure"
+    ],
+    "resilience_signals": [
+      "Single-region India operations reduce China geopolitical risk",
+      "Strategic partner to Apple India diversification strategy",
+      "Tata Group enterprise security backing"
+    ],
+    "data_sources": [
+      "Apple Supplier List 2024",
+      "Reuters — Apple India manufacturing expansion"
+    ],
+    "apple_supplier_list_year": 2024
+  },
+  {
+    "supplier_name": "Taiwan Semiconductor Manufacturing Company",
+    "known_as": "TSMC",
+    "ticker": "TSM",
+    "cik": "0001046179",
+    "category": "Semiconductor Manufacturing",
+    "apple_relationship": "Publicly listed Apple supplier — sole foundry for Apple silicon",
+    "primary_regions": ["Taiwan", "United States", "Japan"],
+    "hq_country": "Taiwan",
+    "business_criticality": "High",
+    "product_dependency": "Apple Silicon (A-series, M-series, S-series) — sole-source fabrication",
+    "handles_sensitive_data": true,
+    "internet_exposed_services": true,
+    "sbom_available": false,
+    "aibom_available": false,
+    "known_vulnerable_dependencies": 1,
+    "last_security_review_days": 45,
+    "has_recent_incidents": true,
+    "cyber_risk_factors": [
+      "2018 WannaCry variant halted production — $170M loss reported",
+      "Taiwan Strait geopolitical concentration — single-point-of-failure risk",
+      "Nation-state espionage interest (US-China semiconductor competition)",
+      "OT/ICS exposure in advanced semiconductor fabs",
+      "Critical national infrastructure designation increases targeting"
+    ],
+    "resilience_signals": [
+      "Arizona Fab 21 — US geographic diversification",
+      "Japan fab (Kumamoto) — additional regional resilience",
+      "Post-2018 OT security hardening and network segmentation",
+      "Mature security operations and incident response capability"
+    ],
+    "data_sources": [
+      "Apple Supplier List 2024",
+      "TSMC 20-F SEC filing",
+      "Bloomberg — TSMC WannaCry 2018",
+      "Reuters — TSMC US expansion"
+    ],
+    "apple_supplier_list_year": 2024
+  },
+  {
+    "supplier_name": "Broadcom Inc.",
+    "known_as": "Broadcom",
+    "ticker": "AVGO",
+    "cik": "0001730168",
+    "category": "Semiconductor Manufacturing",
+    "apple_relationship": "Publicly listed Apple supplier — WiFi, Bluetooth, RF chips",
+    "primary_regions": ["United States", "Singapore"],
+    "hq_country": "United States",
+    "business_criticality": "High",
+    "product_dependency": "WiFi 6E, Bluetooth, and RF front-end chips for iPhone and Mac",
+    "handles_sensitive_data": true,
+    "internet_exposed_services": true,
+    "sbom_available": false,
+    "aibom_available": false,
+    "known_vulnerable_dependencies": 2,
+    "last_security_review_days": 45,
+    "has_recent_incidents": false,
+    "cyber_risk_factors": [
+      "High-value semiconductor IP target",
+      "US export control compliance complexity post-VMware acquisition",
+      "Broad customer base increases lateral supply chain attack surface"
+    ],
+    "resilience_signals": [
+      "US-headquartered — lower geopolitical risk",
+      "Singapore dual-region operations",
+      "Listed US company — SEC cybersecurity disclosure obligations"
+    ],
+    "data_sources": [
+      "Apple Supplier List 2024",
+      "Broadcom 10-K SEC filing"
+    ],
+    "apple_supplier_list_year": 2024
+  },
+  {
+    "supplier_name": "Qualcomm Incorporated",
+    "known_as": "Qualcomm",
+    "ticker": "QCOM",
+    "cik": "0000804328",
+    "category": "Semiconductor Manufacturing",
+    "apple_relationship": "Publicly listed Apple supplier — 5G modem chips",
+    "primary_regions": ["United States"],
+    "hq_country": "United States",
+    "business_criticality": "High",
+    "product_dependency": "5G modem (Snapdragon X series) for iPhone",
+    "handles_sensitive_data": true,
+    "internet_exposed_services": true,
+    "sbom_available": false,
+    "aibom_available": false,
+    "known_vulnerable_dependencies": 2,
+    "last_security_review_days": 40,
+    "has_recent_incidents": true,
+    "cyber_risk_factors": [
+      "2018 data breach — employee data exposed",
+      "Zero-day vulnerabilities in Snapdragon DSP chip (2020 — 400+ flaws reported by Check Point)",
+      "Extensive patent litigation history creates adversarial intelligence risk"
+    ],
+    "resilience_signals": [
+      "US-headquartered — lower geopolitical risk",
+      "SEC cybersecurity disclosure compliance",
+      "Active bug bounty program"
+    ],
+    "data_sources": [
+      "Apple Supplier List 2024",
+      "Qualcomm 10-K SEC filing",
+      "Check Point Research — Snapdragon DSP vulnerabilities 2020"
+    ],
+    "apple_supplier_list_year": 2024
+  },
+  {
+    "supplier_name": "Micron Technology, Inc.",
+    "known_as": "Micron",
+    "ticker": "MU",
+    "cik": "0000723125",
+    "category": "Semiconductor Manufacturing",
+    "apple_relationship": "Publicly listed Apple supplier — DRAM and NAND flash memory",
+    "primary_regions": ["United States", "Japan", "Taiwan", "Singapore"],
+    "hq_country": "United States",
+    "business_criticality": "High",
+    "product_dependency": "DRAM and NAND flash for iPhone, Mac, iPad",
+    "handles_sensitive_data": true,
+    "internet_exposed_services": true,
+    "sbom_available": false,
+    "aibom_available": false,
+    "known_vulnerable_dependencies": 1,
+    "last_security_review_days": 50,
+    "has_recent_incidents": true,
+    "cyber_risk_factors": [
+      "China cybersecurity review and sales ban (2023) — state-directed targeting",
+      "Nation-state IP theft attempts documented (DOJ indictments)",
+      "Multi-country fab exposure increases attack surface"
+    ],
+    "resilience_signals": [
+      "US-headquartered with multi-region fabs",
+      "CHIPS Act recipient — US government security alignment",
+      "SEC cybersecurity disclosure compliance"
+    ],
+    "data_sources": [
+      "Apple Supplier List 2024",
+      "Micron 10-K SEC filing",
+      "Reuters — China Micron ban 2023",
+      "DOJ — Micron trade secret theft indictment"
+    ],
+    "apple_supplier_list_year": 2024
+  },
+  {
+    "supplier_name": "Texas Instruments Incorporated",
+    "known_as": "Texas Instruments",
+    "ticker": "TXN",
+    "cik": "0000097476",
+    "category": "Semiconductor Manufacturing",
+    "apple_relationship": "Publicly listed Apple supplier — power management and analog chips",
+    "primary_regions": ["United States"],
+    "hq_country": "United States",
+    "business_criticality": "High",
+    "product_dependency": "Power management ICs for iPhone and Mac",
+    "handles_sensitive_data": false,
+    "internet_exposed_services": true,
+    "sbom_available": false,
+    "aibom_available": false,
+    "known_vulnerable_dependencies": 0,
+    "last_security_review_days": 45,
+    "has_recent_incidents": false,
+    "cyber_risk_factors": [
+      "Widely used in critical infrastructure — high-value lateral target",
+      "Analog chip design IP is valuable espionage target"
+    ],
+    "resilience_signals": [
+      "Predominantly US manufacturing — low geopolitical risk",
+      "Long-tenured security program",
+      "SEC cybersecurity disclosure compliance"
+    ],
+    "data_sources": [
+      "Apple Supplier List 2024",
+      "Texas Instruments 10-K SEC filing"
+    ],
+    "apple_supplier_list_year": 2024
+  },
+  {
+    "supplier_name": "Qorvo, Inc.",
+    "known_as": "Qorvo",
+    "ticker": "QRVO",
+    "cik": "0001493594",
+    "category": "Wireless Components",
+    "apple_relationship": "Publicly listed Apple supplier — RF front-end modules",
+    "primary_regions": ["United States"],
+    "hq_country": "United States",
+    "business_criticality": "High",
+    "product_dependency": "RF front-end modules and filters for iPhone cellular connectivity",
+    "handles_sensitive_data": false,
+    "internet_exposed_services": true,
+    "sbom_available": false,
+    "aibom_available": false,
+    "known_vulnerable_dependencies": 1,
+    "last_security_review_days": 60,
+    "has_recent_incidents": false,
+    "cyber_risk_factors": [
+      "Highly concentrated Apple revenue dependency — Apple is >30% of revenue",
+      "RF chip design is valuable defense/intelligence IP"
+    ],
+    "resilience_signals": [
+      "US-headquartered",
+      "SEC cybersecurity disclosure compliance"
+    ],
+    "data_sources": [
+      "Apple Supplier List 2024",
+      "Qorvo 10-K SEC filing"
+    ],
+    "apple_supplier_list_year": 2024
+  },
+  {
+    "supplier_name": "Skyworks Solutions, Inc.",
+    "known_as": "Skyworks",
+    "ticker": "SWKS",
+    "cik": "0000004127",
+    "category": "Wireless Components",
+    "apple_relationship": "Publicly listed Apple supplier — RF and analog semiconductors",
+    "primary_regions": ["United States"],
+    "hq_country": "United States",
+    "business_criticality": "High",
+    "product_dependency": "RF amplifiers and connectivity chips for iPhone",
+    "handles_sensitive_data": false,
+    "internet_exposed_services": true,
+    "sbom_available": false,
+    "aibom_available": false,
+    "known_vulnerable_dependencies": 1,
+    "last_security_review_days": 60,
+    "has_recent_incidents": false,
+    "cyber_risk_factors": [
+      "Apple revenue concentration >50% — single customer dependency risk",
+      "Analog RF IP targeted by state-sponsored actors"
+    ],
+    "resilience_signals": [
+      "US-headquartered manufacturing",
+      "SEC cybersecurity disclosure compliance"
+    ],
+    "data_sources": [
+      "Apple Supplier List 2024",
+      "Skyworks 10-K SEC filing"
+    ],
+    "apple_supplier_list_year": 2024
+  },
+  {
+    "supplier_name": "Samsung Display Co., Ltd.",
+    "known_as": "Samsung Display",
+    "ticker": "005930.KS",
+    "cik": null,
+    "category": "Display Manufacturing",
+    "apple_relationship": "Publicly listed Apple supplier — OLED displays for iPhone Pro",
+    "primary_regions": ["Korea"],
+    "hq_country": "South Korea",
+    "business_criticality": "High",
+    "product_dependency": "OLED panels for iPhone Pro and Pro Max",
+    "handles_sensitive_data": true,
+    "internet_exposed_services": true,
+    "sbom_available": false,
+    "aibom_available": false,
+    "known_vulnerable_dependencies": 1,
+    "last_security_review_days": 45,
+    "has_recent_incidents": false,
+    "cyber_risk_factors": [
+      "Dual role as Apple supplier and Samsung Electronics competitor — IP boundary risk",
+      "Korean chaebol structure — complex information boundary controls",
+      "DPRK state-sponsored actors actively targeting Korean tech sector"
+    ],
+    "resilience_signals": [
+      "Mature enterprise security program (Samsung Group)",
+      "ISO 27001 certification across manufacturing",
+      "Long-term Apple partnership with contractual security requirements"
+    ],
+    "data_sources": [
+      "Apple Supplier List 2024",
+      "The Information — Samsung Display Apple relationship"
+    ],
+    "apple_supplier_list_year": 2024
+  },
+  {
+    "supplier_name": "LG Display Co., Ltd.",
+    "known_as": "LG Display",
+    "ticker": "LPL",
+    "cik": "0001085869",
+    "category": "Display Manufacturing",
+    "apple_relationship": "Publicly listed Apple supplier — OLED displays for iPhone",
+    "primary_regions": ["Korea", "China"],
+    "hq_country": "South Korea",
+    "business_criticality": "High",
+    "product_dependency": "OLED panels for iPhone and iPad",
+    "handles_sensitive_data": true,
+    "internet_exposed_services": true,
+    "sbom_available": false,
+    "aibom_available": false,
+    "known_vulnerable_dependencies": 1,
+    "last_security_review_days": 60,
+    "has_recent_incidents": false,
+    "cyber_risk_factors": [
+      "China manufacturing operations — geopolitical risk",
+      "DPRK targeting of Korean electronics sector",
+      "Display technology IP is high-value espionage target"
+    ],
+    "resilience_signals": [
+      "Reducing China manufacturing exposure",
+      "SEC 20-F cybersecurity disclosure compliance"
+    ],
+    "data_sources": [
+      "Apple Supplier List 2024",
+      "LG Display 20-F SEC filing"
+    ],
+    "apple_supplier_list_year": 2024
+  },
+  {
+    "supplier_name": "BOE Technology Group Co., Ltd.",
+    "known_as": "BOE",
+    "ticker": "000725.SZ",
+    "cik": null,
+    "category": "Display Manufacturing",
+    "apple_relationship": "Publicly listed Apple supplier — OLED displays for iPhone 14/15",
+    "primary_regions": ["China"],
+    "hq_country": "China",
+    "business_criticality": "High",
+    "product_dependency": "OLED displays for select iPhone models",
+    "handles_sensitive_data": true,
+    "internet_exposed_services": true,
+    "sbom_available": false,
+    "aibom_available": false,
+    "known_vulnerable_dependencies": 2,
+    "last_security_review_days": 120,
+    "has_recent_incidents": false,
+    "cyber_risk_factors": [
+      "State-owned enterprise — subject to Chinese national security laws",
+      "Full geopolitical concentration in China",
+      "Government-directed data access obligations under China PIPL",
+      "US export control scrutiny"
+    ],
+    "resilience_signals": [
+      "Scale and investment suggest mature OT operations",
+      "Apple supplier approval process sets baseline security standards"
+    ],
+    "data_sources": [
+      "Apple Supplier List 2024",
+      "Reuters — BOE Apple display qualification"
+    ],
+    "apple_supplier_list_year": 2024
+  },
+  {
+    "supplier_name": "Sony Semiconductor Solutions Corporation",
+    "known_as": "Sony",
+    "ticker": "SONY",
+    "cik": "0000313838",
+    "category": "Optical Components",
+    "apple_relationship": "Publicly listed Apple supplier — image sensors for iPhone cameras",
+    "primary_regions": ["Japan"],
+    "hq_country": "Japan",
+    "business_criticality": "High",
+    "product_dependency": "CMOS image sensors for iPhone main and telephoto cameras",
+    "handles_sensitive_data": false,
+    "internet_exposed_services": true,
+    "sbom_available": false,
+    "aibom_available": false,
+    "known_vulnerable_dependencies": 1,
+    "last_security_review_days": 45,
+    "has_recent_incidents": true,
+    "cyber_risk_factors": [
+      "2023 ransomware attack on Sony (Cl0p / MOVEit) — employee data breached",
+      "Japan-based operations — Japan is a top-5 nation-state targeting country"
+    ],
+    "resilience_signals": [
+      "Japan manufacturing — lower China geopolitical risk",
+      "Post-2023 incident response improvements",
+      "SEC 20-F cybersecurity disclosure compliance"
+    ],
+    "data_sources": [
+      "Apple Supplier List 2024",
+      "Sony 20-F SEC filing",
+      "Dark web monitoring — Sony Cl0p 2023 incident"
+    ],
+    "apple_supplier_list_year": 2024
+  },
+  {
+    "supplier_name": "Corning Incorporated",
+    "known_as": "Corning",
+    "ticker": "GLW",
+    "cik": "0000024741",
+    "category": "Optical Components",
+    "apple_relationship": "Publicly listed Apple supplier — Ceramic Shield glass",
+    "primary_regions": ["United States"],
+    "hq_country": "United States",
+    "business_criticality": "High",
+    "product_dependency": "Ceramic Shield display glass for iPhone front and back",
+    "handles_sensitive_data": false,
+    "internet_exposed_services": true,
+    "sbom_available": false,
+    "aibom_available": false,
+    "known_vulnerable_dependencies": 0,
+    "last_security_review_days": 45,
+    "has_recent_incidents": false,
+    "cyber_risk_factors": [
+      "Advanced materials IP (Gorilla Glass, Ceramic Shield) is high-value espionage target",
+      "Apple Advanced Manufacturing Fund investment creates elevated visibility"
+    ],
+    "resilience_signals": [
+      "Predominantly US manufacturing",
+      "Long Apple partnership — contractual security obligations",
+      "SEC 10-K cybersecurity disclosure compliance"
+    ],
+    "data_sources": [
+      "Apple Supplier List 2024",
+      "Corning 10-K SEC filing",
+      "Apple Newsroom — Ceramic Shield announcement"
+    ],
+    "apple_supplier_list_year": 2024
+  },
+  {
+    "supplier_name": "Murata Manufacturing Co., Ltd.",
+    "known_as": "Murata",
+    "ticker": "MRAAY",
+    "cik": null,
+    "category": "Passive Components",
+    "apple_relationship": "Publicly listed Apple supplier — capacitors, filters, and RF modules",
+    "primary_regions": ["Japan", "China"],
+    "hq_country": "Japan",
+    "business_criticality": "High",
+    "product_dependency": "MLCCs, SAW filters, and Bluetooth modules across all Apple devices",
+    "handles_sensitive_data": false,
+    "internet_exposed_services": true,
+    "sbom_available": false,
+    "aibom_available": false,
+    "known_vulnerable_dependencies": 0,
+    "last_security_review_days": 60,
+    "has_recent_incidents": false,
+    "cyber_risk_factors": [
+      "Japan operations — top-tier nation-state targeting environment",
+      "China manufacturing exposure — geopolitical risk",
+      "Component supply concentration — MLCC near-monopoly creates systemic risk"
+    ],
+    "resilience_signals": [
+      "Global manufacturing footprint reduces single-region dependency",
+      "ISO 27001 certified operations",
+      "Long-standing Apple supplier with mature audit relationship"
+    ],
+    "data_sources": [
+      "Apple Supplier List 2024",
+      "Murata annual report"
+    ],
+    "apple_supplier_list_year": 2024
+  },
+  {
+    "supplier_name": "TDK Corporation",
+    "known_as": "TDK",
+    "ticker": "TTDKY",
+    "cik": null,
+    "category": "Passive Components",
+    "apple_relationship": "Publicly listed Apple supplier — batteries, sensors, and components",
+    "primary_regions": ["Japan", "China"],
+    "hq_country": "Japan",
+    "business_criticality": "High",
+    "product_dependency": "iPhone batteries (via ATL joint venture), magnetic sensors",
+    "handles_sensitive_data": false,
+    "internet_exposed_services": true,
+    "sbom_available": false,
+    "aibom_available": false,
+    "known_vulnerable_dependencies": 0,
+    "last_security_review_days": 75,
+    "has_recent_incidents": false,
+    "cyber_risk_factors": [
+      "Battery supply concentration — ATL (Amperex, TDK subsidiary) is primary iPhone battery supplier",
+      "China ATL operations — geopolitical and regulatory risk",
+      "Japan-headquartered — high nation-state targeting environment"
+    ],
+    "resilience_signals": [
+      "Japan HQ with global manufacturing diversification",
+      "ISO 27001 certification",
+      "Apple supplier audit compliance"
+    ],
+    "data_sources": [
+      "Apple Supplier List 2024",
+      "TDK annual report",
+      "Nikkei — ATL Apple battery supply"
+    ],
+    "apple_supplier_list_year": 2024
+  },
+  {
+    "supplier_name": "Nidec Corporation",
+    "known_as": "Nidec",
+    "ticker": "NJ",
+    "cik": null,
+    "category": "Passive Components",
+    "apple_relationship": "Publicly listed Apple supplier — precision motors and actuators",
+    "primary_regions": ["Japan", "China"],
+    "hq_country": "Japan",
+    "business_criticality": "High",
+    "product_dependency": "Precision motors for iPhone haptics and camera OIS",
+    "handles_sensitive_data": false,
+    "internet_exposed_services": true,
+    "sbom_available": false,
+    "aibom_available": false,
+    "known_vulnerable_dependencies": 0,
+    "last_security_review_days": 90,
+    "has_recent_incidents": false,
+    "cyber_risk_factors": [
+      "Japan HQ — active nation-state targeting environment",
+      "China manufacturing operations — geopolitical risk"
+    ],
+    "resilience_signals": [
+      "Global manufacturing across Asia and Americas",
+      "Long Apple supplier relationship"
+    ],
+    "data_sources": [
+      "Apple Supplier List 2024",
+      "Nidec annual report"
+    ],
+    "apple_supplier_list_year": 2024
+  },
+  {
+    "supplier_name": "Jabil Inc.",
+    "known_as": "Jabil",
+    "ticker": "JBL",
+    "cik": "0000898293",
+    "category": "Electronic Manufacturing Services",
+    "apple_relationship": "Publicly listed Apple supplier — casing and mechanical components",
+    "primary_regions": ["United States", "China", "India"],
+    "hq_country": "United States",
+    "business_criticality": "High",
+    "product_dependency": "iPhone and Apple Watch casings, mechanical components",
+    "handles_sensitive_data": true,
+    "internet_exposed_services": true,
+    "sbom_available": false,
+    "aibom_available": false,
+    "known_vulnerable_dependencies": 2,
+    "last_security_review_days": 60,
+    "has_recent_incidents": false,
+    "cyber_risk_factors": [
+      "Large multinational OT footprint — broad attack surface",
+      "China operations — geopolitical and regulatory risk",
+      "EMS providers are common pivot targets in supply chain attacks"
+    ],
+    "resilience_signals": [
+      "US-headquartered with SEC cybersecurity disclosure compliance",
+      "India manufacturing expansion reduces China dependency",
+      "Apple supplier Code of Conduct compliance"
+    ],
+    "data_sources": [
+      "Apple Supplier List 2024",
+      "Jabil 10-K SEC filing"
+    ],
+    "apple_supplier_list_year": 2024
+  },
+  {
+    "supplier_name": "3M Company",
+    "known_as": "3M",
+    "ticker": "MMM",
+    "cik": "0000066740",
+    "category": "Industrial / Materials",
+    "apple_relationship": "Publicly listed Apple supplier — adhesives, films, and specialty materials",
+    "primary_regions": ["United States"],
+    "hq_country": "United States",
+    "business_criticality": "High",
+    "product_dependency": "Adhesive films, display coatings, and specialty materials across Apple devices",
+    "handles_sensitive_data": false,
+    "internet_exposed_services": true,
+    "sbom_available": false,
+    "aibom_available": false,
+    "known_vulnerable_dependencies": 1,
+    "last_security_review_days": 50,
+    "has_recent_incidents": false,
+    "cyber_risk_factors": [
+      "Broad industrial footprint increases lateral attack surface",
+      "Advanced materials formulations are high-value IP"
+    ],
+    "resilience_signals": [
+      "US-headquartered — lower geopolitical risk",
+      "SEC 10-K cybersecurity disclosure compliance",
+      "Mature enterprise security program"
+    ],
+    "data_sources": [
+      "Apple Supplier List 2024",
+      "3M 10-K SEC filing"
+    ],
+    "apple_supplier_list_year": 2024
+  }
+]

@@ -2,4 +2,17 @@ venv/
 .env
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 reports/output/
+logs/
+*.log
+.DS_Store
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+backup/
+data/
+

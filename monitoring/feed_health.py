@@ -1,11 +1,18 @@
+import logging
 import requests
 import time
+
+logger = logging.getLogger(__name__)
+
+_HEADERS = {"User-Agent": "SentinelForge-AI/1.0"}
+
 
 def check_feed_health(name: str, url: str, timeout: int = 10) -> dict:
     start = time.time()
 
     try:
-        response = requests.get(url, timeout=timeout)
+        response = requests.get(url, timeout=timeout, stream=True, headers=_HEADERS)
+        response.close()
         latency = round(time.time() - start, 2)
 
         if response.status_code == 200:
@@ -29,7 +36,10 @@ def check_feed_health(name: str, url: str, timeout: int = 10) -> dict:
         }
 
     except requests.exceptions.Timeout:
-        return {"feed": name, "status": "TIMEOUT"}
+        latency = round(time.time() - start, 2)
+        logger.warning("Feed %s timed out after %.2fs", name, latency)
+        return {"feed": name, "status": "TIMEOUT", "latency_seconds": latency}
 
     except Exception as e:
-        return {"feed": name, "status": "ERROR", "error": str(e)}
+        logger.error("Feed %s check failed: %s", name, e)
+        return {"feed": name, "status": "ERROR", "error": str(e), "latency_seconds": None}
